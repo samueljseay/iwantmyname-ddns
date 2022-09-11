@@ -11,7 +11,7 @@ Set the following environment variables:
 - HOSTNAME: dns hostname to set ip on (required)
 - INTERVAL: interval to update hostname, if <= 0 then update hostname once, if > 0 then update hostname every INTERVAL seconds (optional)
 
-```yaml
+```yml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
